@@ -1,0 +1,15 @@
+﻿处理步骤,处理规则,处理前记录数,处理后记录数,影响记录数
+删除完全重复行,删除整行所有字段完全一致的重复记录，仅保留第一条,5630,5630,0
+数值列缺失值填充,对列【Tenure】使用全局中位数填充缺失值,264,0,264
+数值列缺失值填充,对列【WarehouseToHome】使用全局中位数填充缺失值,251,0,251
+数值列缺失值填充,对列【HourSpendOnApp】使用全局中位数填充缺失值,255,0,255
+数值列缺失值填充,对列【OrderAmountHikeFromlastYear】使用全局中位数填充缺失值,265,0,265
+数值列缺失值填充,对列【CouponUsed】使用全局中位数填充缺失值,256,0,256
+数值列缺失值填充,对列【OrderCount】使用全局中位数填充缺失值,258,0,258
+数值列缺失值填充,对列【DaySinceLastOrder】使用全局中位数填充缺失值,307,0,307
+类别字段标准化,将列【PreferredLoginDevice】中的「Phone」统一替换为「Mobile Phone」,1231,0,1231
+类别字段标准化,将列【PreferredPaymentMode】中的「COD」统一替换为「Cash on Delivery」,365,0,365
+类别字段标准化,将列【PreferredPaymentMode】中的「CC」统一替换为「Credit Card」,273,0,273
+类别字段标准化,将列【PreferedOrderCat】中的「Mobile」统一替换为「Mobile Phone」,809,0,809
+数据类型转换,将列【Churn】从int64转换为int64,5630,5630,0
+数据类型转换,将列【Complain】从int64转换为int64,5630,5630,0
